@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+/>
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='corona.css')}}"/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+  rel="stylesheet">
+  
+<title>COVID-19 Tracker</title>
+</head>
+<body>
+  <div class="header"><h1>covid-19 tracker</h1></div>
+
+  <form id='myForm'>
+    <input type="text" id="country" placeholder="country name" required>   
+      <button class="get-data" type="submit"value=''>
+        <i id='pika'class="fas fa-virus"></i> </button>
+  
+ </form>   
+<div class="display">
+  <h1 id='new'>New Cases : </h1>
+  <h1 id='confirmed'>Confirmed : </h1>
+  <h1 id='deaths'>Death Toll: </h1>
+  <h1 id='recovered'>Recovered : </h1>
+</div>
+<script src="{{url_for('static',filename='corona.js')}}"></script>  
+</body>
+</html>

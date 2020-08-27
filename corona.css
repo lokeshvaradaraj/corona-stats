@@ -1,0 +1,143 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+html{
+    height:100%
+}
+body{
+    height:auto;
+    background-image:linear-gradient(120deg,#FFB75E,#ED8F03);
+    background-blend-mode: overlay;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    font-family:"Poppins",sans-serif;
+}
+.header{
+    background-color: ivory;
+    color:#ED8F03;
+    padding-top:3%;
+    padding-bottom:3%;
+    min-height:30%;
+    display:flex;
+    font-size:140%;
+    font-weight:200;
+    word-wrap: none;
+    text-justify: auto;
+    text-align-last: center;
+    justify-content: center;
+    align-items:center;
+    border-radius:1.5% 1.5% 4% 4%;
+}
+
+
+
+header{
+    font-size: 1.5rem;
+}
+header,form{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+form{
+    transform:scale(0.75);
+    margin-top:7%;
+}
+form input ,form button {
+    margin-top:10.5%;
+    padding:0.5rem;
+    font-size:2rem;
+ 
+    border:none;
+    background:white;
+
+}
+
+form button{
+    color:rgba(255,69,0,1);
+    background:white;
+    cursor:pointer;
+    transition: all 0.3s ease;
+
+}
+
+form button:hover{
+    background:#d88771;
+    color:white;
+
+}
+
+
+.display{
+    transform:scale(0.85);
+    background-color:ivory ;
+    height:200%;
+    margin-top:8%;
+    border-radius:3%;
+
+}
+
+#recovered,#new,#deaths,#confirmed{
+    color:#ED8F03;
+    margin-bottom:3%;
+    padding:5%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:400px){
+    .header{
+        font-size:110%;
+    }
+
+}    
+
+
+
+
+
+/*#pika{
+    margin-top:10.5%;
+    padding:0.5rem;
+    font-size:2rem;
+ 
+    border:none;
+    background:white;
+    color:rgba(255,69,0,1);
+    background:white;
+    cursor:pointer;
+    transition: all 0.3s ease;
+
+}
+
+#pika:hover{
+    background:#d88771;
+    color:white;
+
+}
+#pika{
+    transform:scale(1.1);
+    margin-top:87%;
+}
+.getdata:hover{
+    background:#d88771;
+    color:white;
+
+}
